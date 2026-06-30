@@ -1,0 +1,35 @@
+<configs>
+	<!-- Big Ammo Chest Container for your prefab -->
+	<append xpath="/blocks">
+		<block name="cntBigAmmoCrate">
+			<property name="Extends" value="cntAmmoPileLarge" />
+			<property name="CustomIcon" value="cntAmmoPileLarge" />
+			<property name="Material" value="metal" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="Entities/Containers/cntAmmoPileLargePrefab" />
+			<property name="LootList" value="startingKitLoot" />
+			<property name="Group" value="Building,advBuilding" />
+			<property name="EconomicValue" value="150" />
+			<property name="MaxDamage" value="1200" />
+		</block>
+		<!-- Basic Survival Kit Bag -->
+		<block name="cntBasicSurvivalKit">
+			<property name="Extends" value="cntBackpack01" />
+			<property name="CustomIcon" value="cntBackpack01" />
+			<property name="LootList" value="basicSurvivalLoot" />
+			<property name="Group" value="Building,advBuilding" />
+			<property name="EconomicValue" value="100" />
+			<property name="SoundOpen" value="UseActions/open_backpack" />
+			<property name="SoundClose" value="UseActions/close_backpack" />
+			<property name="OpenTime" value="0.6" />
+		</block>
+		<!-- Resource Heavy Kit Chest -->
+		<block name="cntResourceHeavyKit">
+			<property name="Extends" value="cntAmmoPileLarge" />
+			<property name="CustomIcon" value="cntAmmoPileLarge" />
+			<property name="LootList" value="resourceHeavyLoot" />
+			<property name="Group" value="Building,advBuilding" />
+			<property name="EconomicValue" value="200" />
+		</block>
+	</append>
+</configs>
