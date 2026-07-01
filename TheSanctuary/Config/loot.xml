@@ -1,6 +1,6 @@
 <configs>
    <!-- ====================== BASIC SURVIVAL KIT ====================== -->
-   <append xpath="/lootgroups">
+   <append xpath="/lootcontainers">
       <lootgroup name="groupBasicSurvival" count="all">
          <!-- === Tools & Armor === -->
          <item name="meleeToolPickT2SteelPickaxe" count="1" prob="1.0" />
@@ -30,14 +30,14 @@
       </lootgroup>
    </append>
    <append xpath="/lootcontainers">
-      <lootcontainer id="901" name="basicSurvivalLoot" count="all" size="8,12" destroy_on_close="false"
+      <lootcontainer name="basicSurvivalLoot" count="1" size="8,12"
                        sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack"
-                       open_time="0.5" loot_quality_template="baseTemplate">
+                       open_time="0.5" loot_quality_template="qualBaseTemplate">
          <item group="groupBasicSurvival" count="1" prob="1.0" />
       </lootcontainer>
    </append>
    <!-- ====================== RESOURCE HEAVY KIT ====================== -->
-   <append xpath="/lootgroups">
+   <append xpath="/lootcontainers">
       <lootgroup name="groupResourceHeavy" count="all">
          <!-- === Stacked Resources (uncomment as needed) === -->
          <item name="resourceWoodBundle" count="5" prob="1.0" />
@@ -87,14 +87,14 @@
       </lootgroup>
    </append>
    <append xpath="/lootcontainers">
-      <lootcontainer id="902" name="resourceHeavyLoot" count="all" size="12,18" destroy_on_close="false"
+      <lootcontainer name="resourceHeavyLoot" count="1" size="12,18"
                        sound_open="UseActions/open_chest" sound_close="UseActions/close_chest"
-                       open_time="0.5" loot_quality_template="baseTemplate">
+                       open_time="0.5" loot_quality_template="qualBaseTemplate">
          <item group="groupResourceHeavy" count="1" prob="1.0" />
       </lootcontainer>
    </append>
    <!-- ====================== IMPORTANT ITEMS FULL LIST ====================== -->
-   <append xpath="/lootgroups">
+   <append xpath="/lootcontainers">
       <lootgroup name="groupStartingKit" count="all">
          <!-- === Stacked Resources (uncomment as needed) === -->
          <item name="resourceWoodBundle" count="5" prob="1.0" />
@@ -170,9 +170,9 @@
    </append>
    <!-- Loot Container Definition -->
    <append xpath="/lootcontainers">
-      <lootcontainer id="903" name="startingKitLoot" count="all" size="10,15" destroy_on_close="false"
+      <lootcontainer name="startingKitLoot" count="1" size="10,15"
                        sound_open="UseActions/open_chest" sound_close="UseActions/close_chest"
-                       open_time="0.5" loot_quality_template="baseTemplate">
+                       open_time="0.5" loot_quality_template="qualBaseTemplate">
          <item group="groupStartingKit" count="1" prob="1.0" />
       </lootcontainer>
    </append>
