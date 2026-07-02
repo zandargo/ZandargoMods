@@ -1,100 +1,6 @@
 <configs>
-	<!-- ====================== BASIC SURVIVAL KIT ====================== -->
-	<append xpath="/lootgroups">
-		<lootgroup name="groupBasicSurvival" count="1">
-			<!-- === Tools & Armor === -->
-			<item name="meleeToolPickT2SteelPickaxe" count="1" prob="1.0" />
-			<item name="meleeToolAxeT2SteelAxe" count="1" prob="1.0" />
-			<item name="meleeToolShovelT2SteelShovel" count="1" prob="1.0" />
-			<item name="meleeToolRepairT1ClawHammer" count="1" prob="1.0" />
-			<item name="meleeToolSalvageT2Ratchet" count="1" prob="1.0" />
-			<!-- === Weapons & Ammo === -->
-			<item name="meleeWpnBladeT3Machete" count="1" prob="1.0" />
-			<item name="meleeWpnSpearT3SteelSpear" count="1" prob="1.0" />
-			<item name="gunRifleT3SniperRifle" count="1" prob="1.0" />
-			<item name="modGunSoundSuppressorSilencer" count="1" prob="1.0" />
-			<item name="modGunScopeLarge" count="1" prob="1.0" />
-			<item name="ammo762BulletBall" count="150" prob="1.0" />
-			<item name="gunBowT3CompoundBow" count="1" prob="1.0" />
-			<item name="ammoArrowSteelAP" count="150" prob="1.0" />
-			<item name="ammoArrowSteelAP" count="150" prob="1.0" />
-			<item name="armorAssassinHelmet" count="1" prob="1.0" />
-			<item name="armorAssassinOutfit" count="1" prob="1.0" />
-			<item name="armorAssassinGloves" count="1" prob="1.0" />
-			<item name="armorAssassinBoots" count="1" prob="1.0" />
-			<item name="modArmorNightVision" count="1" prob="1.0" />
-			<!-- === Survival === -->
-			<item name="drinkJarPureMineralWater" count="10" prob="1.0" />
-			<item name="foodHoboStew" count="10" prob="1.0" />
-			<item name="medicalFirstAidKit" count="3" prob="1.0" />
-		</lootgroup>
-	</append>
-	<append xpath="/lootcontainers">
-		<lootcontainer id="901" name="basicSurvivalLoot" count="2,4" size="8,12" destroy_on_close="false"
-                       sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack"
-                       open_time="0.5" loot_quality_template="baseTemplate">
-			<item group="groupBasicSurvival" count="1" prob="1.0" />
-		</lootcontainer>
-	</append>
-	<!-- ====================== RESOURCE HEAVY KIT ====================== -->
-	<append xpath="/lootgroups">
-		<lootgroup name="groupResourceHeavy" count="1">
-			<!-- === Stacked Resources (uncomment as needed) === -->
-			<item name="resourceWoodBundle" count="5" prob="1.0" />
-			<item name="resourceRockSmallBundle" count="5" prob="1.0" />
-			<item name="resourceScrapIronBundle" count="5" prob="1.0" />
-			<item name="resourceCrushedSandBundle" count="5" prob="1.0" />
-			<item name="resourceCrushedSand" count="6000" prob="1.0" />
-			<item name="resourceOilShaleBundle" count="5" prob="1.0" />
-			<item name="resourceCoalBundle" count="5" prob="1.0" />
-			<item name="resourceLeadBundle" count="5" prob="1.0" />
-			<item name="toolForgeCrucible" count="1" prob="1.0" />
-			<item name="resourceAcid" count="20" prob="1.0" />
-			<item name="ammoGasCanBundle" count="2" prob="1.0" />
-			<item name="resourceMetalPipe" count="200" prob="1.0" />
-			<item name="resourceScrapPolymers" count="1000" prob="1.0" />
-			<item name="resourceSewingKit" count="50" prob="1.0" />
-			<item name="resourceScrapBrass" count="6000" prob="1.0" />
-			<item name="resourceClayLump" count="6000" prob="1.0" />
-			<item name="resourceLeather" count="250" prob="1.0" />
-			<item name="resourceLeather" count="250" prob="1.0" />
-			<item name="resourceCloth" count="250" prob="1.0" />
-			<item name="resourceCloth" count="250" prob="1.0" />
-			<item name="resourceCloth" count="250" prob="1.0" />
-			<item name="resourcePaper" count="150" prob="1.0" />
-			<item name="resourceElectricalParts" count="500" prob="1.0" />
-			<item name="resourceMechanicalParts" count="1000" prob="1.0" />
-			<item name="resourceSpring" count="300" prob="1.0" />
-			<item name="smallEngine" count="5" prob="1.0" />
-			<item name="carBattery" count="5" prob="1.0" />
-			<item name="carBattery" count="5" prob="1.0" />
-			<item name="carBattery" count="5" prob="1.0" />
-			<!-- Bones -->
-			<!-- === Skill Magazines (one of each - uncomment as needed) === -->
-			<item name="harvestingToolsSkillMagazine" count="20" prob="1.0" />
-			<item name="repairToolsSkillMagazine" count="20" prob="1.0" />
-			<item name="salvageToolsSkillMagazine" count="20" prob="1.0" />
-			<item name="forgedAhead" count="20" prob="1.0" />
-			<item name="handgunsSkillMagazine" count="20" prob="1.0" />
-			<item name="shotgunsSkillMagazine" count="20" prob="1.0" />
-			<item name="riflesSkillMagazine" count="20" prob="1.0" />
-			<item name="bladesSkillMagazine" count="20" prob="1.0" />
-			<item name="clubsSkillMagazine" count="20" prob="1.0" />
-			<item name="spearSkillMagazine" count="20" prob="1.0" />
-			<item name="bowsSkillMagazine" count="20" prob="1.0" />
-			<item name="vehicleAdventures" count="20" prob="1.0" />
-			<item name="homeCookingWeekly" count="20" prob="1.0" />
-		</lootgroup>
-	</append>
-	<append xpath="/lootcontainers">
-		<lootcontainer id="902" name="resourceHeavyLoot" count="3,6" size="12,18" destroy_on_close="false"
-                       sound_open="UseActions/open_chest" sound_close="UseActions/close_chest"
-                       open_time="0.5" loot_quality_template="baseTemplate">
-			<item group="groupResourceHeavy" count="1" prob="1.0" />
-		</lootcontainer>
-	</append>
 	<!-- ====================== IMPORTANT ITEMS FULL LIST ====================== -->
-	<append xpath="/lootgroups">
+	<append xpath="/lootcontainers">
 		<lootgroup name="groupStartingKit" count="1">
 			<!-- === Stacked Resources (uncomment as needed) === -->
 			<item name="resourceWoodBundle" count="5" prob="1.0" />
@@ -103,74 +9,11 @@
 			<item name="resourceCrushedSandBundle" count="5" prob="1.0" />
 			<item name="resourceCrushedSand" count="6000" prob="1.0" />
 			<item name="resourceOilShaleBundle" count="5" prob="1.0" />
-			<item name="resourceCoalBundle" count="5" prob="1.0" />
-			<item name="resourceLeadBundle" count="5" prob="1.0" />
-			<item name="toolForgeCrucible" count="1" prob="1.0" />
-			<item name="resourceAcid" count="20" prob="1.0" />
-			<item name="ammoGasCanBundle" count="2" prob="1.0" />
-			<item name="resourceMetalPipe" count="200" prob="1.0" />
-			<item name="resourceScrapPolymers" count="1000" prob="1.0" />
-			<item name="resourceSewingKit" count="50" prob="1.0" />
-			<item name="resourceScrapBrass" count="6000" prob="1.0" />
-			<item name="resourceClayLump" count="6000" prob="1.0" />
-			<item name="resourceLeather" count="250" prob="1.0" />
-			<item name="resourceLeather" count="250" prob="1.0" />
-			<item name="resourceCloth" count="250" prob="1.0" />
-			<item name="resourceCloth" count="250" prob="1.0" />
-			<item name="resourceCloth" count="250" prob="1.0" />
-			<item name="resourcePaper" count="150" prob="1.0" />
-			<item name="resourceElectricalParts" count="500" prob="1.0" />
-			<item name="resourceMechanicalParts" count="1000" prob="1.0" />
-			<item name="resourceSpring" count="300" prob="1.0" />
-			<item name="smallEngine" count="5" prob="1.0" />
-			<item name="carBattery" count="5" prob="1.0" />
-			<item name="carBattery" count="5" prob="1.0" />
-			<item name="carBattery" count="5" prob="1.0" />
-			<!-- Bones -->
-			<!-- === Skill Magazines (one of each - uncomment as needed) === -->
-			<item name="harvestingToolsSkillMagazine" count="20" prob="1.0" />
-			<item name="repairToolsSkillMagazine" count="20" prob="1.0" />
-			<item name="salvageToolsSkillMagazine" count="20" prob="1.0" />
-			<item name="forgedAhead" count="20" prob="1.0" />
-			<item name="handgunsSkillMagazine" count="20" prob="1.0" />
-			<item name="shotgunsSkillMagazine" count="20" prob="1.0" />
-			<item name="riflesSkillMagazine" count="20" prob="1.0" />
-			<item name="bladesSkillMagazine" count="20" prob="1.0" />
-			<item name="clubsSkillMagazine" count="20" prob="1.0" />
-			<item name="spearSkillMagazine" count="20" prob="1.0" />
-			<item name="bowsSkillMagazine" count="20" prob="1.0" />
-			<item name="vehicleAdventures" count="20" prob="1.0" />
-			<item name="homeCookingWeekly" count="20" prob="1.0" />
-			<!-- === Tools & Armor === -->
-			<item name="meleeToolPickT2SteelPickaxe" count="1" prob="1.0" />
-			<item name="meleeToolAxeT2SteelAxe" count="1" prob="1.0" />
-			<item name="meleeToolShovelT2SteelShovel" count="1" prob="1.0" />
-			<item name="meleeToolRepairT1ClawHammer" count="1" prob="1.0" />
-			<item name="meleeToolSalvageT2Ratchet" count="1" prob="1.0" />
-			<!-- === Weapons & Ammo === -->
-			<item name="meleeWpnBladeT3Machete" count="1" prob="1.0" />
-			<item name="meleeWpnSpearT3SteelSpear" count="1" prob="1.0" />
-			<item name="gunRifleT3SniperRifle" count="1" prob="1.0" />
-			<item name="modGunSoundSuppressorSilencer" count="1" prob="1.0" />
-			<item name="modGunScopeLarge" count="1" prob="1.0" />
-			<item name="ammo762BulletBall" count="150" prob="1.0" />
-			<item name="gunBowT3CompoundBow" count="1" prob="1.0" />
-			<item name="ammoArrowSteelAP" count="150" prob="1.0" />
-			<item name="ammoArrowSteelAP" count="150" prob="1.0" />
-			<item name="armorAssassinHelmet" count="1" prob="1.0" />
-			<item name="armorAssassinOutfit" count="1" prob="1.0" />
-			<item name="armorAssassinGloves" count="1" prob="1.0" />
-			<item name="armorAssassinBoots" count="1" prob="1.0" />
-			<item name="modArmorNightVision" count="1" prob="1.0" />
-			<!-- === Survival === -->
-			<item name="drinkJarPureMineralWater" count="10" prob="1.0" />
-			<item name="foodHoboStew" count="10" prob="1.0" />
-			<item name="medicalFirstAidKit" count="3" prob="1.0" />
 		</lootgroup>
 	</append>
 	<!-- Loot Container Definition -->
 	<append xpath="/lootcontainers">
-		<lootcontainer id="903" name="startingKitLoot" count="3,6" size="10,15" destroy_on_close="false"
+		<lootcontainer id="12345" name="startingKitLoot" count="3,6" size="10,15" destroy_on_close="false"
                        sound_open="UseActions/open_chest" sound_close="UseActions/close_chest"
                        open_time="0.5" loot_quality_template="baseTemplate">
 			<item group="groupStartingKit" count="1" prob="1.0" />
