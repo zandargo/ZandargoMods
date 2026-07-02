@@ -1,0 +1,25 @@
+<configs>
+	<append xpath="/quests">
+		<!-- 1. The On-Spawn XP and Map delivery -->
+		<quest id="quest_starter_xp_boost">
+			<property name="name_key" value="An Old Memory"/>
+			<property name="description_key" value="You wake up with an elite skill set and a faint memory of a stash you left behind."/>
+			<property name="type" value="on_spawn"/>
+			<property name="shareable" value="false"/>
+			<property name="repeatable" value="false"/>
+			<!-- Gives 50,000 XP instantly on spawn -->
+			<action type="GiveExp" value="50000"/>
+			<!-- Rewards the custom map item into your inventory -->
+			<reward type="Item" id="itemAssassinStashMap" count="1" force_slot="true"/>
+		</quest>
+		<!-- 2. The Buried Treasure Hunt Tracking Quest -->
+		<quest id="quest_assassin_stash_hunt">
+			<property name="name_key" value="Recover Your Stash"/>
+			<property name="type" value="Treasure"/>
+			<property name="category_key" value="treasure"/>
+			<property name="difficulty" value="1"/>
+			<!-- Tells the quest system to search for your custom backpack block within the world -->
+			<objective type="FindTreasure" block_to_find="cntAssassinStarterBackpack" id="0"/>
+		</quest>
+	</append>
+</configs>

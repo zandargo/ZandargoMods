@@ -1,0 +1,25 @@
+<configs>
+	<append xpath="/lootcontainers">
+		<lootcontainer id="999" name="assassinStarterLoot" count="1" size="8,4" sound_open="Use_Backpack" sound_close="Close_Backpack" loot_quality_template="qualBaseTemplate">
+			<!-- === Armor & Weapons === -->
+			<item name="armorAssassinHelmet" count="1" quality="4"/>
+			<item name="armorAssassinOutfit" count="1" quality="4"/>
+			<item name="armorAssassinGloves" count="1" quality="4"/>
+			<item name="armorAssassinBoots" count="1" quality="4"/>
+			<item name="modArmorNightVision" count="1"/>
+			<item name="gunBowT3CompoundBow" count="1" quality="4"/>
+			<item name="ammoArrowSteelAP" count="300" quality="4"/>
+			<item name="meleeWpnBladeT3Machete" count="1" quality="4"/>
+			<!-- === Tools === -->
+			<item name="meleeToolPickT2SteelPickaxe" count="1" quality="4"/>
+			<item name="meleeToolAxeT2SteelAxe" count="1" quality="4"/>
+			<item name="meleeToolShovelT2SteelShovel" count="1" quality="4"/>
+			<item name="meleeToolRepairT1ClawHammer" count="1" quality="4"/>
+			<item name="meleeToolSalvageT2Ratchet" count="1" quality="4"/>
+			<!-- === Survival === -->
+			<item name="drinkJarPureMineralWater" count="10"/>
+			<item name="foodHoboStew" count="10"/>
+			<item name="medicalFirstAidKit" count="5"/>
+		</lootcontainer>
+	</append>
+</configs>

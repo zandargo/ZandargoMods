@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ModInfo>
+    <Name value="AssassinStarterQuest" />
+    <DisplayName value="Assassin Starter Quest" />
+    <Description value="Gives the player a starter quest to begin their journey as an assassin." />
+    <Author value="Zandargo" />
+    <Version value="1.0" />
+    <Website value="" />
+</ModInfo>

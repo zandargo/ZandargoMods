@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <ModInfo>
-    <Name value="CreedStarterBackpack" />
-    <DisplayName value="Assassin Starter Backpack" />
-    <Description value="Gives the player a starter backpack containing assassin gear." />
-    <Author value="Modder" />
-    <Version value="1.0" />
-    <Website value="" />
+	<Name value="CreedStarterBackpack" />
+	<DisplayName value="Assassin Starter Backpack" />
+	<Description value="Gives the player a starter backpack containing assassin gear." />
+	<Author value="Zandargo" />
+	<Version value="1.0" />
+	<Website value="" />
 </ModInfo>
