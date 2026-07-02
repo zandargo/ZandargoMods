@@ -2,7 +2,7 @@
 	<append xpath="/items">
 		<item name="itemAssassinStashMap">
 			<property name="Extends" value="questMaster"/>
-			<property name="CustomIcon" value="itemTreasureMap"/>
+			<property name="CustomIcon" value="treasureQuestMaster"/>
 			<property name="CustomIconTint" value="060606"/>
 			<property name="ActivateObject" value="quest_assassin_stash_hunt"/>
 		</item>
