@@ -1,0 +1,36 @@
+<configs>
+
+	<!-- Create custom loot groups -->
+	<insertBefore xpath="/lootcontainers/lootcontainer[@name='birdNest']">
+
+		<!-- Create loot group 01 for feathers (10-15). -->
+		<lootgroup name="groupBirdNestBetter01" count="1">
+			<item name="resourceFeather" count="10,15"/>
+		</lootgroup>
+
+		<!-- Create loot group 02 for eggs (3-5). -->
+		<lootgroup name="groupBirdNestBetter02" count="1">
+			<item name="foodEgg" count="3,5" />
+		</lootgroup>
+
+		<!-- Create main loot group. -->
+		<lootgroup name="groupBirdNestBetter" count="all">
+		
+			<!-- Include loot group 01 in main loot group with count 1 (100% chance). -->
+			<item group="groupBirdNestBetter01" count="1"/>
+			
+			<!-- Include loot group 02 in main loot group with count 0,1 (50 % chance). -->
+			<item group="groupBirdNestBetter02" count="0,1"/>
+
+		</lootgroup>
+	</insertBefore>
+
+	<!-- Remove original main loot group from birdNest loot container. -->
+	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']/item[@group='groupBirdNest']"/>
+
+	<!-- Add custom main loot group to birdNest loot container. -->
+	<append xpath="/lootcontainers/lootcontainer[@name='birdNest']">
+		<item group="groupBirdNestBetter"/>
+	</append>
+
+</configs>

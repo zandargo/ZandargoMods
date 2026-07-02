@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<Name value="TheSanctuaryStartingKitSafe" />
+	<DisplayName value="The Sanctuary Starting Kit (Safe Test)" />
+	<Version value="1.0.0" />
+	<Description value="Reduced starting-kit loot for safe testing of TheSanctuary prefab." />
+	<Author value="Madson Germano" />
+</xml>
