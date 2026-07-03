@@ -4,9 +4,12 @@
 			<property name="Extends" value="cntBackpack01"/>
 			<property name="CustomIcon" value="cntBackpack03"/>
 			<property name="CustomIconTint" value="060606"/>
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="999"/>
 			<property name="CreativeMode" value="Player"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="assassinStarterPackLoot"/>
+				</property>
+			</property>
 		</block>
 	</append>
 </configs>

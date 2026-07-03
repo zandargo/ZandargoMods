@@ -1,0 +1,25 @@
+<configs>
+	<append xpath="/items">
+		<item name="itemAssassinStarterPackBundle">
+			<property name="CustomIcon" value="cntBackpack03"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="assassinStarterPackBundleDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="EconomicValue" value="0"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="armorAssassinHelmet,armorAssassinOutfit,armorAssassinGloves,armorAssassinBoots,modArmorNightVision,gunBowT3CompoundBow,ammoArrowSteelAP,meleeWpnBladeT3Machete,meleeToolPickT2SteelPickaxe,meleeToolAxeT2SteelAxe,meleeToolShovelT2SteelShovel,meleeToolRepairT1ClawHammer,meleeToolSalvageT2Ratchet,drinkJarPureMineralWater,foodHoboStew,medicalFirstAidKit"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,300,1,1,1,1,1,1,10,10,5"/>
+            </property>
+		</item>
+	</append>
+</configs>
