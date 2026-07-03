@@ -20,7 +20,7 @@
 		</lootgroup>
 	</append>
 	<append xpath="/lootcontainers">
-		<lootcontainer name="assassinStarterPackLoot" count="1" size="8,4" sound_open="Use_Backpack" sound_close="Close_Backpack">
+		<lootcontainer name="assassinStarterPackLoot" count="1" size="8,4" open_time="1.0" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" destroy_on_close="empty">
 			<item group="groupAssassinStarterPack" count="all"/>
 		</lootcontainer>
 	</append>

@@ -10,6 +10,8 @@
 					<property name="LootList" value="assassinStarterPackLoot"/>
 				</property>
 			</property>
+			<property name="SoundOpen" value="UseActions/open_backpack" />
+			<property name="SoundClose" value="UseActions/close_backpack" />
 		</block>
 	</append>
 </configs>
