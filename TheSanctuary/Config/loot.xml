@@ -38,51 +38,51 @@
    <!-- ====================== RESOURCE HEAVY KIT ====================== -->
    <append xpath="/lootcontainers">
       <lootgroup name="groupResourceHeavy" count="all">
-         <!-- === Stacked Resources (uncomment as needed) === -->
-         <item name="resourceWoodBundle" count="5,5"/>
-         <item name="resourceRockSmallBundle" count="5,5"/>
-         <item name="resourceScrapIronBundle" count="5,5"/>
-         <item name="resourceCrushedSandBundle" count="5,5"/>
-         <item name="resourceCrushedSand" count="6000,6000"/>
-         <item name="resourceOilShaleBundle" count="5,5"/>
-         <item name="resourceCoalBundle" count="5,5"/>
-         <item name="resourceLeadBundle" count="5,5"/>
-         <item name="toolForgeCrucible" count="1,1"/>
-         <item name="resourceAcid" count="20,20"/>
-         <item name="resourceBone" count="1200,1200"/>
-         <item name="ammoGasCanBundle" count="2,2"/>
-         <item name="resourceMetalPipe" count="500,500"/>
-         <item name="resourceScrapPolymers" count="1000,1000"/>
-         <item name="resourceSewingKit" count="50,50"/>
-         <item name="resourceScrapBrass" count="6000,6000"/>
-         <item name="resourceClayLump" count="6000,6000"/>
-         <item name="resourceLeather" count="250,250"/>
-         <item name="resourceLeather" count="250,250"/>
-         <item name="resourceCloth" count="250,250"/>
-         <item name="resourceCloth" count="250,250"/>
-         <item name="resourceCloth" count="250,250"/>
-         <item name="resourcePaper" count="150,150"/>
-         <item name="resourceElectricalParts" count="500,500"/>
-         <item name="resourceMechanicalParts" count="1000,1000"/>
-         <item name="resourceSpring" count="300,300"/>
-         <item name="smallEngine" count="5,5"/>
-         <item name="carBattery" count="5,5"/>
-         <item name="carBattery" count="5,5"/>
-         <item name="carBattery" count="5,5"/>
-         <!-- === Skill Magazines (one of each - uncomment as needed) === -->
-         <item name="harvestingToolsSkillMagazine" count="20,20"/>
-         <item name="repairToolsSkillMagazine" count="20,20"/>
-         <item name="salvageToolsSkillMagazine" count="20,20"/>
-         <item name="forgedAhead" count="20,20"/>
-         <item name="handgunsSkillMagazine" count="20,20"/>
-         <item name="shotgunsSkillMagazine" count="20,20"/>
-         <item name="riflesSkillMagazine" count="20,20"/>
-         <item name="bladesSkillMagazine" count="20,20"/>
-         <item name="clubsSkillMagazine" count="20,20"/>
-         <item name="spearSkillMagazine" count="20,20"/>
-         <item name="bowsSkillMagazine" count="20,20"/>
-         <item name="vehicleAdventures" count="20,20"/>
-         <item name="homeCookingWeekly" count="20,20"/>
+         <!-- === Stacked Resources === -->
+         <item name="resourceWoodBundle" count="5"/>
+         <item name="resourceRockSmallBundle" count="5"/>
+         <item name="resourceScrapIronBundle" count="5"/>
+         <item name="resourceCrushedSandBundle" count="5"/>
+         <item name="resourceCrushedSand" count="6000"/>
+         <item name="resourceOilShaleBundle" count="5"/>
+         <item name="resourceCoalBundle" count="5"/>
+         <item name="resourceLeadBundle" count="5"/>
+         <item name="toolForgeCrucible" count="1"/>
+         <item name="resourceAcid" count="20"/>
+         <item name="resourceBone" count="1200"/>
+         <item name="ammoGasCanBundle" count="2"/>
+         <item name="resourceMetalPipe" count="500"/>
+         <item name="resourceScrapPolymers" count="1000"/>
+         <item name="resourceSewingKit" count="50"/>
+         <item name="resourceScrapBrass" count="6000"/>
+         <item name="resourceClayLump" count="6000"/>
+         <item name="resourceLeather" count="250"/>
+         <item name="resourceLeather" count="250"/>
+         <item name="resourceCloth" count="250"/>
+         <item name="resourceCloth" count="250"/>
+         <item name="resourceCloth" count="250"/>
+         <item name="resourcePaper" count="150"/>
+         <item name="resourceElectricalParts" count="500"/>
+         <item name="resourceMechanicalParts" count="1000"/>
+         <item name="resourceSpring" count="300"/>
+         <item name="smallEngine" count="5"/>
+         <item name="carBattery" count="5"/>
+         <item name="carBattery" count="5"/>
+         <item name="carBattery" count="5"/>
+         <!-- === Skill Magazines === -->
+         <item name="harvestingToolsSkillMagazine" count="20"/>
+         <item name="repairToolsSkillMagazine" count="20"/>
+         <item name="salvageToolsSkillMagazine" count="20"/>
+         <item name="forgedAhead" count="20"/>
+         <item name="handgunsSkillMagazine" count="20"/>
+         <item name="shotgunsSkillMagazine" count="20"/>
+         <item name="riflesSkillMagazine" count="20"/>
+         <item name="bladesSkillMagazine" count="20"/>
+         <item name="clubsSkillMagazine" count="20"/>
+         <item name="spearSkillMagazine" count="20"/>
+         <item name="bowsSkillMagazine" count="20"/>
+         <item name="vehicleAdventures" count="20"/>
+         <item name="homeCookingWeekly" count="20"/>
       </lootgroup>
    </append>
    <append xpath="/lootcontainers">

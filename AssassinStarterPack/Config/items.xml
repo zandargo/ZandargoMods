@@ -17,9 +17,51 @@
 				<property name="Class" value="OpenBundle"/>
 				<property name="Delay" value="0"/>
 				<property name="Sound_start" value="close_garbage"/>
-				<property name="Create_item" value="armorAssassinHelmet,armorAssassinOutfit,armorAssassinGloves,armorAssassinBoots,modArmorNightVision,gunBowT3CompoundBow,ammoArrowSteelAP,meleeWpnBladeT3Machete,meleeToolPickT2SteelPickaxe,meleeToolAxeT2SteelAxe,meleeToolShovelT2SteelShovel,meleeToolRepairT1ClawHammer,meleeToolSalvageT2Ratchet,drinkJarPureMineralWater,foodHoboStew,medicalFirstAidKit"/>
-				<property name="Create_item_count" value="1,1,1,1,1,1,300,1,1,1,1,1,1,10,10,5"/>
+				<property name="Create_item" value="armorAssassinHelmet,armorAssassinOutfit,armorAssassinGloves,armorAssassinBoots,modArmorNightVision,gunBowT3CompoundBow,ammoArrowSteelAP,ammoArrowSteelAP,meleeWpnBladeT3Machete,meleeToolPickT2SteelPickaxe,meleeToolAxeT2SteelAxe,meleeToolShovelT2SteelShovel,meleeToolRepairT1ClawHammer,meleeToolSalvageT2Ratchet,drinkJarPureMineralWater,foodHoboStew,medicalFirstAidKit"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,150,150,1,1,1,1,1,1,10,10,5"/>
             </property>
+		</item>
+		<item name="itemAssassinStarterPackResourcesBundle">
+			<property name="CustomIcon" value="cntBackpack03"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="assassinStarterPackResourcesDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="EconomicValue" value="0"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceWoodBundle,resourceRockSmallBundle,resourceScrapIronBundle,resourceCrushedSandBundle,resourceCrushedSand,resourceOilShaleBundle,resourceCoalBundle,resourceLeadBundle,toolForgeCrucible,resourceAcid,resourceBone,ammoGasCanBundle,resourceMetalPipe,resourceScrapPolymers,resourceSewingKit,resourceScrapBrass,resourceClayLump,resourceLeather,resourceLeather,resourceCloth,resourceCloth,resourceCloth,resourcePaper,resourceElectricalParts,resourceMechanicalParts,resourceSpring,smallEngine,carBattery,carBattery,carBattery"/>
+				<property name="Create_item_count" value="5,5,5,5,6000,5,5,5,1,20,1200,2,500,1000,50,6000,6000,250,250,250,250,250,150,500,1000,300,5,5,5"/>
+			</property>
+		</item>
+		<item name="itemAssassinStarterPackMagazinesBundle">
+			<property name="CustomIcon" value="cntBackpack03"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="assassinStarterPackMagazinesDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="EconomicValue" value="0"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="harvestingToolsSkillMagazine,repairToolsSkillMagazine,salvageToolsSkillMagazine,forgedAhead,handgunsSkillMagazine,shotgunsSkillMagazine,riflesSkillMagazine,bladesSkillMagazine,clubsSkillMagazine,spearSkillMagazine,bowsSkillMagazine,vehicleAdventures,homeCookingWeekly"/>
+				<property name="Create_item_count" value="20,20,20,20,20,20,20,20,20,20,20,20,20"/>
+			</property>
 		</item>
 	</append>
 </configs>
