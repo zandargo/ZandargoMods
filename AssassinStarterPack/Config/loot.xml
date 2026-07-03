@@ -1,6 +1,6 @@
 <configs>
 	<append xpath="/lootcontainers">
-		<lootcontainer id="999" name="assassinStarterPackLoot" count="all" size="8,4" open_time="1.0" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" destroy_on_close="empty">
+		<lootcontainer id="909" name="assassinStarterPackLoot" count="all" size="8,4" open_time="1.0" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" destroy_on_close="empty">
 			<item name="armorAssassinHelmet" count="1" quality="4"/>
 			<item name="armorAssassinOutfit" count="1" quality="4"/>
 			<item name="armorAssassinGloves" count="1" quality="4"/>

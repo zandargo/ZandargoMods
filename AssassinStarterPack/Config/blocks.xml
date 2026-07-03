@@ -9,7 +9,7 @@
 			<property name="Class" value="CompositeTileEntity" />
 			<property class="CompositeFeatures">
 				<property class="TEFeatureStorage">
-					<property name="LootList" value="999"/>
+					<property name="LootList" value="909"/>
 					<property name="LootStageBonus" value="20" />
 					<property name="IsQuestLoot" value="false" />
 				</property>
