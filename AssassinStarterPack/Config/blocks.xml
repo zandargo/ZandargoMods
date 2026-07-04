@@ -38,6 +38,7 @@
 		</block>
 		<block name="cntAssassinStarterResourcesGunSafe">
 			<property name="Extends" value="cntGunSafe"/>
+			<property name="CreativeMode" value="Player"/>
 			<property name="Class" value="CompositeTileEntity" />
 			<property class="CompositeFeatures">
 				<property class="TEFeatureStorage">
