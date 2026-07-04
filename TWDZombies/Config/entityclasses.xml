@@ -1,9 +1,9 @@
 <configs>
 	<!-- Keep only properties that exist in v3.0 reference entityclasses.xml -->
 	<!-- Movement: base/aggro/panic speeds -->
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeed']/@value">0.35</set>
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeedAggro']/@value">0.65, 0.65</set>
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeedPanic']/@value">0.5</set>
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeed']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeedAggro']/@value">0.45, 0.45</set>
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeedPanic']/@value">0.4</set>
 	<!-- Swimming speed remains a property in v3.0 -->
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='SwimSpeed']/@value">0.5</set>
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='SwimSpeed']/@value">0.25</set>
 </configs>
