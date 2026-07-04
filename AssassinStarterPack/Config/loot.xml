@@ -21,7 +21,7 @@
 		<lootcontainer id="910" name="assassinStarterPackLoot2" count="1" size="7,2" open_time="1.0" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" destroy_on_close="empty">
 			<item name="itemAssassinStarterPackBundle" count="1"/>
 		</lootcontainer>
-		<lootcontainer id="911" name="assassinStarterPackResourcesLoot" count="1" size="7,2" open_time="1.0" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" destroy_on_close="false">
+		<lootcontainer id="917" name="assassinStarterPackResourcesLoot" count="1" size="8,9" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" destroy_on_close="false">
 			<item name="itemAssassinStarterPackResourcesBundle" count="1"/>
 		</lootcontainer>
 	</append>

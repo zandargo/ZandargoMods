@@ -2,10 +2,10 @@
 	<!-- Keep only properties that exist in v3.0 reference entityclasses.xml -->
 	<!-- Movement: base/aggro/panic speeds -->
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeed']/@value">0.1</set>
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeedAggro']/@value">0.1, 0.15</set>
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeedAggro']/@value">0.1, 0.12</set>
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeedPanic']/@value">0.12</set>
 	<!-- Swimming speed remains a property in v3.0 -->
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='SwimSpeed']/@value">0.1</set>
 	<!-- Reduce zombie jump distance in v3.0 -->
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='JumpMaxDistance']/@value">0.8, 1.2</set>
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='JumpMaxDistance']/@value">0.5, 0.8</set>
 </configs>
