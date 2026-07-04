@@ -18,15 +18,13 @@
 			<item name="foodHoboStew" count="10"/>
 			<item name="medicalFirstAidKit" count="5"/>
 		</lootcontainer>
-		<lootcontainer id="910" name="assassinStarterPackLoot2" count="2" size="7,2" open_time="1.0" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" destroy_on_close="empty">
+		<lootcontainer id="910" name="assassinStarterPackLoot2" count="1" size="7,2" open_time="1.0" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" destroy_on_close="empty">
 			<item name="itemAssassinStarterPackBundle" count="1"/>
-			<item name="itemAssassinStarterPackMagazinesBundle" count="1"/>
 		</lootcontainer>
-		<lootcontainer id="911" name="assassinStarterPackResourcesLoot" count="30" size="8,4" open_time="1.0" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" destroy_on_close="empty">
+		<lootcontainer id="911" name="assassinStarterPackResourcesLoot" count="60" size="8,8" open_time="1.0" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" destroy_on_close="empty">
 			<item name="resourceWoodBundle" count="5"/>
 			<item name="resourceRockSmallBundle" count="5"/>
 			<item name="resourceScrapIronBundle" count="5"/>
-			<item name="resourceCrushedSandBundle" count="5"/>
 			<item name="resourceCrushedSand" count="6000"/>
 			<item name="resourceOilShaleBundle" count="5"/>
 			<item name="resourceCoalBundle" count="5"/>
@@ -41,17 +39,16 @@
 			<item name="resourceScrapBrass" count="6000"/>
 			<item name="resourceClayLump" count="6000"/>
 			<item name="resourceLeather" count="250"/>
-			<item name="resourceLeather" count="250"/>
-			<item name="resourceCloth" count="250"/>
-			<item name="resourceCloth" count="250"/>
 			<item name="resourceCloth" count="250"/>
 			<item name="resourcePaper" count="150"/>
-			<item name="resourceElectricalParts" count="500"/>
+			<item name="resourceElectricParts" count="500"/>
 			<item name="resourceMechanicalParts" count="1000"/>
 			<item name="resourceSpring" count="300"/>
-			<item name="smallEngine" count="5"/>
-			<item name="carBattery" count="5"/>
-			<item name="carBattery" count="5"/>
+			<item name="smallEngine" count="1"/>
+			<item name="carBattery" count="1"/>
+			<item name="foodHoboStew" count="10"/>
+			<item name="foodHoney" count="10"/>
+			<item name="drinkJarPureMineralWater" count="10"/>
 		</lootcontainer>
 	</append>
 </configs>
