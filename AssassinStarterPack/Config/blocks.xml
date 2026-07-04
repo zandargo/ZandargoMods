@@ -36,5 +36,13 @@
 			<property name="SoundClose" value="UseActions/close_backpack" />
 			<property name="FilterTags" value="MC_helpers,SC_loot" />
 		</block>
+		<block name="cntAssassinStarterResourcesGunSafe">
+			<property name="Extends" value="cntGunSafe"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="assassinStarterPackResourcesLoot"/>
+				</property>
+			</property>
+		</block>
 	</append>
 </configs>
