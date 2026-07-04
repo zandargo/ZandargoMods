@@ -1,8 +1,9 @@
 <configs>
 	<!-- ==================== MOVEMENT - Slow Shambling ==================== -->
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeed']/@value">0.55</set>
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeedAggro']/@value">0.85</set>
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeed']/@value">0.35</set>
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeedAggro']/@value">0.65</set>
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeedPanic']/@value">0.5</set>
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='SwimSpeed']/@value">0.5</set>
 	<!-- ==================== JUMP - Low and Weak ==================== -->
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='JumpHeight']/@value">0.5</set>
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='JumpStrength']/@value">0.4</set>
