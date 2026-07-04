@@ -1,19 +1,11 @@
 <configs>
-	<!-- ==================== MOVEMENT - Slow Shambling ==================== -->
+	<!-- Keep only properties that exist in v3.0 reference entityclasses.xml -->
+	<!-- Movement: base/aggro/panic speeds -->
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeed']/@value">0.35</set>
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeedAggro']/@value">0.65</set>
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='MoveSpeedPanic']/@value">0.5</set>
+	<!-- Swimming speed remains a property in v3.0 -->
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='SwimSpeed']/@value">0.5</set>
-	<!-- ==================== JUMP - Low and Weak ==================== -->
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='JumpHeight']/@value">0.5</set>
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='JumpStrength']/@value">0.4</set>
-	<!-- ==================== CLIMBING - Very Slow Struggle ==================== -->
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='ClimbSpeed']/@value">0.35</set>
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='ClimbSpeedAggro']/@value">0.45</set>
-	<!-- ==================== INFECTION - High Chance (85%) ==================== -->
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='InfectionChance']/@value">0.85</set>
-	<!-- ==================== ATTACK SPEED - Slower Hits ==================== -->
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='AttackSpeed']/@value">1.8</set>
-	<!-- ==================== AGGRESSION - Slightly reduced range ==================== -->
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='AggroRange']/@value">14</set>
+	<!-- Jump: v3.0 uses JumpStrength passive_effect; update JumpStrength only -->
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/effect_group/passive_effect[@name='JumpStrength']/@value">0.4</set>
 </configs>
