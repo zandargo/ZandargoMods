@@ -10,7 +10,25 @@
 			<property class="CompositeFeatures">
 				<property class="TEFeatureStorage">
 					<property name="LootList" value="assassinStarterPackLoot"/>
-					<property name="LootStageBonus" value="20" />
+					<property name="LootStageBonus" value="80" />
+					<property name="IsQuestLoot" value="false" />
+				</property>
+			</property>
+			<property name="SoundOpen" value="UseActions/open_backpack" />
+			<property name="SoundClose" value="UseActions/close_backpack" />
+			<property name="FilterTags" value="MC_helpers,SC_loot" />
+		</block>
+		<block name="cntAssassinStarterBackpack2">
+			<property name="Extends" value="cntBackpack01"/>
+			<property name="CustomIcon" value="cntBackpack03"/>
+			<property name="CustomIconTint" value="060606"/>
+			<property name="TintColor" value="060606" />
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="CompositeTileEntity" />
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="assassinStarterPackLoot2"/>
+					<property name="LootStageBonus" value="80" />
 					<property name="IsQuestLoot" value="false" />
 				</property>
 			</property>
