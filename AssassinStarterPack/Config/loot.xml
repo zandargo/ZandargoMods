@@ -24,5 +24,8 @@
 		<lootcontainer id="917" name="assassinStarterPackResourcesLoot" count="1" size="8,9" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" destroy_on_close="false">
 			<item name="itemAssassinStarterPackResourcesBundle" count="1"/>
 		</lootcontainer>
+		<lootcontainer id="918" name="assassinStarterPackMagazineLoot" count="1" size="8,9" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" destroy_on_close="false">
+			<item name="itemAssassinStarterPackMagazinesBundle" count="1"/>
+		</lootcontainer>
 	</append>
 </configs>

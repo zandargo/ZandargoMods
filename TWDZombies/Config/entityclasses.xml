@@ -7,5 +7,4 @@
 	<!-- Swimming speed remains a property in v3.0 -->
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='SwimSpeed']/@value">0.1</set>
 	<!-- Reduce zombie jump distance in v3.0 -->
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='JumpMaxDistance']/@value">0.5, 0.8</set>
 </configs>

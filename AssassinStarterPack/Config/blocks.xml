@@ -37,9 +37,11 @@
 			<property name="FilterTags" value="MC_helpers,SC_loot" />
 		</block>
 		<block name="cntAssassinStarterResourcesGunSafe">
-			<property name="Extends" value="cntGunSafe"/>
+			<property name="Extends" value="cntGunSafeInsecure"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="Class" value="CompositeTileEntity" />
+			<property name="CustomIcon" value="cntGunSafe" />
+			<property name="CustomIconTint" value="060606" />
 			<property class="CompositeFeatures">
 				<property class="TEFeatureStorage">
 					<property name="LootList" value="assassinStarterPackResourcesLoot"/>
@@ -47,6 +49,30 @@
 					<property name="IsQuestLoot" value="false" />
 				</property>
 			</property>
+		</block>
+		<block name="cntAssassinHiddenResource">
+			<property name="Extends" value="cntMorticianDrawerEmpty" />
+			<property name="Class" value="CompositeTileEntity" />
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="assassinStarterPackResourcesLoot" />
+				</property>
+			</property>
+			<property name="Model" value="@:Entities/LootContainers/doorSteelStainlessFullPrefab.prefab" />
+			<property name="DowngradeFX" value="impact_organic_on_metal,silencefiller" />
+			<property name="DowngradeBlock" value="cntMorticianDrawerEmpty" />
+			<property name="SortOrder2" value="0001" />
+		</block>
+		<block name="cntAssassinBookShelf">
+			<property name="Extends" value="cntBookShelfSingleBottomFull01" />
+			<property name="Class" value="CompositeTileEntity" />
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="assassinStarterPackMagazineLoot" />
+				</property>
+			</property>
+			<property name="Model" value="@:Entities/Commercial/bookshelfBottomFull2Prefab.prefab" />
+			<property name="SortOrder2" value="0002" />
 		</block>
 	</append>
 </configs>

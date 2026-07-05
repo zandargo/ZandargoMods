@@ -8,7 +8,7 @@
 			<property name="shareable" value="false"/>
 			<property name="repeatable" value="false"/>
 			<!-- Gives 50,000 XP instantly on spawn -->
-			<action type="GiveExp" value="50000"/>
+			<reward type="Exp" value="50000"/>
 			<!-- Rewards the custom map item into your inventory -->
 			<reward type="Item" id="itemAssassinStashMap" count="1" force_slot="true"/>
 		</quest>
