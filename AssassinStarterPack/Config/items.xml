@@ -17,8 +17,8 @@
 				<property name="Class" value="OpenBundle"/>
 				<property name="Delay" value="0"/>
 				<property name="Sound_start" value="close_garbage"/>
-				<property name="Create_item" value="armorAssassinHelmet,armorAssassinOutfit,armorAssassinGloves,armorAssassinBoots,modArmorNightVision,gunBowT3CompoundBow,ammoArrowSteelAP,ammoArrowSteelAP,meleeWpnBladeT3Machete,meleeToolPickT2SteelPickaxe,meleeToolAxeT2SteelAxe,meleeToolShovelT2SteelShovel,meleeToolRepairT1ClawHammer,meleeToolSalvageT2Ratchet,drinkJarPureMineralWater,foodHoboStew,medicalFirstAidKit,resourceLockPick,resourceWood,foodHoney"/>
-				<property name="Create_item_count" value="4,4,4,4,1,4,150,150,4,4,4,4,4,4,10,10,5,50,2000,5"/>
+				<property name="Create_item" value="armorAssassinHelmet,armorAssassinOutfit,armorAssassinGloves,armorAssassinBoots,modArmorNightVision,gunBowT3CompoundBow,meleeWpnBladeT3Machete,meleeToolPickT2SteelPickaxe,meleeToolAxeT2SteelAxe,meleeToolShovelT2SteelShovel,meleeToolRepairT1ClawHammer,meleeToolSalvageT2Ratchet,drinkJarPureMineralWater,foodHoboStew,medicalFirstAidKit,resourceLockPick,resourceWood,foodHoney,ammoBundleArrowSteelAP"/>
+				<property name="Create_item_count" value="4,4,4,4,1,4,4,4,4,4,4,4,10,10,5,50,2000,5,5"/>
             </property>
 		</item>
 		<item name="itemAssassinStarterPackResourcesBundle">
